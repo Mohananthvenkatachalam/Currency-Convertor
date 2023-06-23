@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+#cardheader{
+    background-color: rgb(185, 222, 233);
+    border-radius: 0px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+#border{
+    border: 5px solid rgb(185, 222, 233);
+}
+#footer{
+    background-color: rgb(185, 222, 233);
+    border-radius: 0px;
+}
+#mainborder{
+    border: 1px solid rgb(185, 222, 233);
+    padding: 50px;
+}
+#select1,#select2{
+    background-color: rgb(185, 222, 233);
+}
+#nam1,#nam2{
+    width: 100px;
+}

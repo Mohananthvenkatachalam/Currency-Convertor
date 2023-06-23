@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/x-icon" href="./images/fabicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="bg-light w-100 vh-100 p-5 border-bottom">
+      <span
+        class="d-flex align-items-center justify-content-center w-100 h-100"
+      >
+        <div id="main" class="d-flex justify-content-center">
+          <div class="card mb-3" id="border" style="max-width: 30rem">
+            <div id="cardheader" class="card-header border border-0">Currency Converter</div>
+            <div class="card-body" id="mainborder">
+              <div class="input-group mb-3">
+                <label id="nam2" class="input-group-text" for="inputGroupSelect01">From:</label>
+                <select id="select1" class="form-select" id="inputGroupSelect01">
+                 
+                </select>
+              </div>
+              <div class="input-group mb-3">
+                <label id="nam1" class="input-group-text" for="inputGroupSelect01"> To : </label>
+                <select id="select2" class="form-select" id="inputGroupSelect01">
+                 
+                </select>
+              </div>
+              <div class="input-group flex-nowrap">
+                <input id="input" type="text" class="form-control mx-2" placeholder="Given Value" aria-label="Username" aria-describedby="addon-wrapping">
+                <input id="output" type="text" class="form-control" placeholder="Converted Value" aria-label="Username" aria-describedby="addon-wrapping">
+              </div>
+            </div>
+            <div id="footer" class="card-footer border border-0">
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button id="btn" type="button" class="btn btn-outline-primary">Convert</button>
+              </div>
+              
+            </div>
+          </div>
+        </div></span
+      >
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
