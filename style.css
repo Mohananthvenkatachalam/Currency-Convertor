@@ -21,5 +21,6 @@
     background-color: rgb(185, 222, 233);
 }
 #nam1,#nam2{
-    width: 100px;
+    min-width: min-content;
+    width: 25%;
 }
